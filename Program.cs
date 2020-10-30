@@ -18,10 +18,11 @@ namespace @delegate
         static void Main(string[] args)
         {
             Program p = new Program();
-            Func<int,int> f = p.Add;
+            Func<int, int> f = res;
             int res = f(4, 6);
             Console.WriteLine(res);
             Console.ReadLine();
         }
+        //
     }
 }
